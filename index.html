@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/underscore-min.js"></script>
+    <script src="js/jquery_v3.3.1.js"></script>
+    
+</head>
+<body>
+    <div id="container">
+        <div class="myPage" >
+          <div class="container-fluid noPadding">
+            <div class=" noPadding header">
+              <h1 class="">What’s in the basket? Choose and write.</h1>
+              <div class="headerBtns">
+                <div class="resourseBtn">
+                  <img src="assets/images/resImg.png" alt="">
+                </div>
+                <div class="helpBtn">
+                  <img src="assets/images/help.png" alt="">
+                </div>
+              </div>
+            </div>
+            <section class="pageContainer">
+              <div class="backGround " ></div>
+              <div class="myContent " >
+                <div class="questionContainer">
+                  <div>
+                    <span class="question question_1" data-answer="incorrect">scissors</span>
+                    <span class="question question_2" data-answer="correct">eraser</span>
+                    <span class="question question_3" data-answer="correct">ruler</span>
+                    <span class="question question_4" data-answer="incorrect">bag</span><br>
+                  </div>
+                  <div>
+                    <span class="question question_5" data-answer="incorrect">pencil case</span>
+                    <span class="question question_6" data-answer="correct">pencil</span>
+                    <span class="question question_7" data-answer="correct">book</span>
+                    <span class="question question_8" data-answer="correct">pen</span>
+                  </div>
+                </div>
+                <div class="optionContainer">
+                  <img class="basketImg" src="assets/images/basket.png">
+                  <div class="col-xs-12 noPadding">
+                    <div class="col-xs-4 noPadding">
+                      <div class="option option_1">&nbsp;</div>
+                      <div class="option option_2">&nbsp;</div>
+                    </div>
+                    <div class="col-xs-4 noPadding">
+                      <div class="option option_3">&nbsp;</div>	
+                    </div>
+                    <div class="col-xs-4 noPadding">
+                      <div class="option option_4">&nbsp;</div>
+                      <div class="option option_5">&nbsp;</div>	
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div class="row">
+              <div class=" footer" >
+                <div class="reloadBtn">
+                  <img src="assets/images/reload_icon.png" alt="">
+                </div>
+                <div class="showAns">
+                  <img src="assets/images/showAnswer.png" alt="" id="viewAll">
+                </div>
+              </div>
+            </div>
+            <div class="resoursePopup" style="display: none;">
+              <div class="resourseContainer" ">
+                <img class="closeBtn" src="assets/images/close_icon.png">
+                <img src="assets/images/dummy.jpg">
+              </div>
+            </div>
+      
+            <div class="helpPopup" style="display: none;">
+              <div class="helpContainer" >
+                <img class="closeBtn" src="assets/images/close_icon.png">
+                <p>Help content goes here.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
