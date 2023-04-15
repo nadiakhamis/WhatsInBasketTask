@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style/style.css">
-    <script src="js/underscore-min.js"></script>
-    <script src="js/jquery_v3.3.1.js"></script>
-    
+    <link rel="stylesheet" href="style/style.css">    
 </head>
 <body>
     <div id="container">
@@ -66,7 +63,7 @@
                   <img src="assets/images/reload_icon.png" alt="">
                 </div>
                 <div class="showAns">
-                  <img src="assets/images/showAnswer.png" alt="" id="viewAll">
+                  <img src="assets/images/showAnswer.png" alt="" id="viewAll" onclick="viewAll()">
                 </div>
               </div>
             </div>
@@ -86,6 +83,9 @@
           </div>
         </div>
       </div>
-    <script type="text/javascript" src="js/main.js"></script>
+      <audio id="correctAudio"  src="assets/audio/correct.mp3"></audio>
+      <audio id="InCorrectAudio" src="assets/audio/incorrect.mp3"></audio>
+  
+    <script type="text/javascript" src="js/main.js"></script> 
 </body>
 </html>
